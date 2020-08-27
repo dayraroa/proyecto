@@ -424,15 +424,22 @@ footer{
                 position: static;
             }
             .fa{
-                display: block;
+                color: white;
             }
             
                
             input:checked ~ label ~ .fa {
-               display: none;
+               display: block;
+               top: 0px;
             }
-            input:checked ~ label {
-                display: block;
+            input:checked ~ label ~ .fa {
+                display: none;
+                color: white;
+               
+            }
+            input:checked ~ .fa {
+                color: black;
+               
             }
            
             input:checked ~ ul {

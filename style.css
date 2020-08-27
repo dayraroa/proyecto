@@ -317,11 +317,15 @@ footer {
       user-select: none;
       position: static; }
     header nav .fa {
-      display: block; }
+      color: white; }
     header nav input:checked ~ label ~ .fa {
-      display: none; }
-    header nav input:checked ~ label {
-      display: block; }
+      display: block;
+      top: 0px; }
+    header nav input:checked ~ label ~ .fa {
+      display: none;
+      color: white; }
+    header nav input:checked ~ .fa {
+      color: black; }
     header nav input:checked ~ ul {
       display: block; }
     header nav ul {
