@@ -23,6 +23,9 @@ header {
         input {
              display: none;
             }
+        i{
+            display: none;
+        }
         label{
             display: none;
         }
@@ -413,7 +416,7 @@ footer{
             }
         nav{
             label{
-                line-height: 2em;
+                line-height: 3em;
                 font-weight: bold;
                 text-align: center;
                 user-select: none;
