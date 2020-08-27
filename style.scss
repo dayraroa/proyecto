@@ -23,10 +23,10 @@ header {
         input {
              display: none;
             }
-        i{
+        label{
             display: none;
         }
-        label{
+        i{
             display: none;
         }
         ul{
@@ -416,22 +416,33 @@ footer{
             }
         nav{
             label{
-                line-height: 3em;
+                display: inline-block;
+                line-height: 2em;
                 font-weight: bold;
                 text-align: center;
                 user-select: none;
-               
+                position: static;
             }
-            
-            input:checked ~ label {
+            i{
                 display: none;
             }
-            input:checked ~ label ~ i{
+            input:checked ~ i::before{
+                display: none;
+              
+            }
+               
+            input:checked ~ label ~ i {
+                background: white;
                 display: block;
             }
-            input:checked ~ i {
-                display : none;
+            input:checked ~ label {
+                background: white;
+                display: none;
             }
+            input:checked ~ ul {
+                display : block;
+            }
+           
             
             ul{
                 display: none;

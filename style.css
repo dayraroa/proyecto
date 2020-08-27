@@ -20,6 +20,8 @@ header {
       display: none; }
     header nav label {
       display: none; }
+    header nav i {
+      display: none; }
     header nav ul {
       display: flex;
       padding: 1%;
@@ -164,7 +166,6 @@ header {
   position: relative;
   top: 310px;
   display: inline-block;
-  flex-wrap: wrap;
   padding: 0px; }
   .galeria h2 {
     left: 200px;
@@ -172,24 +173,29 @@ header {
     height: 62px;
     font-size: 48px;
     position: relative; }
-  .galeria .imagen1 {
-    width: 445px;
-    height: 364px; }
-  .galeria .imagen2 {
-    width: 445px;
-    height: 364px; }
-  .galeria .imagen3 {
-    width: 445px;
-    height: 364px; }
-  .galeria .imagen4 {
-    width: 445px;
-    height: 364px; }
-  .galeria .imagen5 {
-    width: 445px;
-    height: 364px; }
-  .galeria .imagen6 {
-    width: 445px;
-    height: 364px; }
+  .galeria .imagenes {
+    margin: 0px;
+    border: 0px;
+    width: 100vw;
+    flex-wrap: wrap; }
+    .galeria .imagenes .imagen1 {
+      width: 445px;
+      height: 364px; }
+    .galeria .imagenes .imagen2 {
+      width: 445px;
+      height: 364px; }
+    .galeria .imagenes .imagen3 {
+      width: 445px;
+      height: 364px; }
+    .galeria .imagenes .imagen4 {
+      width: 445px;
+      height: 364px; }
+    .galeria .imagenes .imagen5 {
+      width: 445px;
+      height: 364px; }
+    .galeria .imagenes .imagen6 {
+      width: 445px;
+      height: 364px; }
 
 .iconos {
   position: relative;
@@ -310,10 +316,16 @@ footer {
       text-align: center;
       user-select: none;
       position: static; }
-    header nav label:hover {
-      background: white; }
+    header nav i {
+      display: none; }
+    header nav input:checked ~ i::before {
+      display: none; }
+    header nav input:checked ~ label ~ i {
+      background: white;
+      display: block; }
     header nav input:checked ~ label {
-      background: white; }
+      background: white;
+      display: none; }
     header nav input:checked ~ ul {
       display: block; }
     header nav ul {
