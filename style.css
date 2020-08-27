@@ -316,16 +316,12 @@ footer {
       text-align: center;
       user-select: none;
       position: static; }
-    header nav i {
-      display: none; }
-    header nav input:checked ~ i::before {
-      display: none; }
-    header nav input:checked ~ label ~ i {
-      background: white;
+    header nav .fa {
       display: block; }
-    header nav input:checked ~ label {
-      background: white;
+    header nav input:checked ~ label ~ .fa {
       display: none; }
+    header nav input:checked ~ label {
+      display: block; }
     header nav input:checked ~ ul {
       display: block; }
     header nav ul {
@@ -526,8 +522,7 @@ footer {
       width: 26vw;
       height: 60vh;
       top: 5em;
-      left: 9em;
-      text-justify: center; }
+      left: 9em; }
       .iconos .icono2 .p {
         font-size: 24px;
         justify-content: center; }

@@ -423,22 +423,18 @@ footer{
                 user-select: none;
                 position: static;
             }
-            i{
-                display: none;
-            }
-            input:checked ~ i::before{
-                display: none;
-              
-            }
-               
-            input:checked ~ label ~ i {
-                background: white;
+            .fa{
                 display: block;
             }
-            input:checked ~ label {
-                background: white;
-                display: none;
+            
+               
+            input:checked ~ label ~ .fa {
+               display: none;
             }
+            input:checked ~ label {
+                display: block;
+            }
+           
             input:checked ~ ul {
                 display : block;
             }
@@ -696,7 +692,7 @@ footer{
                 height: 60vh;
                 top: 5em;
                 left: 9em;
-               text-justify:center;
+               
               
                  .p{
                     font-size: 24px;
