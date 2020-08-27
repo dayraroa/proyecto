@@ -209,7 +209,7 @@ header {
     position: relative;
     top: 310px;
     display: inline-block;
-    flex-wrap: wrap;
+    
     padding: 0px;
     h2{
         left: 200px;
@@ -218,6 +218,13 @@ header {
         font-size: 48px;
         position: relative;
     }
+    .imagenes{
+        margin: 0px;
+        border: 0px;
+        width: 100vw;
+        flex-wrap: wrap;
+
+    
     .imagen1{
         
              width: 445px;
@@ -244,6 +251,8 @@ header {
         height: 364px;
     }
 }
+}
+    
     
     
 
