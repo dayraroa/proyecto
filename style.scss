@@ -413,22 +413,23 @@ footer{
             }
         nav{
             label{
-                display: inline-block;
                 line-height: 2em;
                 font-weight: bold;
                 text-align: center;
                 user-select: none;
-                position: static;
+               
             }
-            label:hover{
-                background:white;
-            }
+            
             input:checked ~ label {
-                background: white;
+                display: none;
             }
-            input:checked ~ ul {
-                display : block;
+            input:checked ~ label ~ i{
+                display: block;
             }
+            input:checked ~ i {
+                display : none;
+            }
+            
             ul{
                 display: none;
                 background-color:#0000EC ;
