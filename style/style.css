@@ -58,7 +58,7 @@ header {
     width: 7px;
     height: 7px;
     background-color: blue;
-    left: -20px;
+    left: -15px;
     top: 50px;
     position: relative; }
 .boxs .box2 {
@@ -98,24 +98,25 @@ header {
   .episodios h2 {
     font-size: 48px;
     color: white;
-    top: 635px;
+    top: 85px;
     left: 200px;
     width: 209px;
     height: 62px;
-    transform: skewY(9deg); }
-  .episodios .episodios1 {
     transform: skewY(9deg);
-    top: 140px; }
+    font-family: 'IBM Plex Sans', sans-serif;
+    position: relative; }
+  .episodios .episodios1 {
+    transform: skewY(9deg); }
     .episodios .episodios1 .iframe1 {
       left: 50px;
-      top: 123px;
+      top: 160px;
       width: 584px;
       height: 232px;
       border: 0px;
       position: relative; }
     .episodios .episodios1 .iframe2 {
       left: 100px;
-      top: 123px;
+      top: 160px;
       width: 584px;
       height: 232px;
       border: 0px;
@@ -165,17 +166,17 @@ header {
 .galeria {
   position: relative;
   top: 310px;
+  width: 100vw;
   display: inline-block;
   padding: 0px; }
   .galeria h2 {
     left: 200px;
     top: 0px;
+    width: 660px;
     height: 62px;
     font-size: 48px;
     position: relative; }
   .galeria .imagenes {
-    margin: 0px;
-    border: 0px;
     width: 100vw;
     flex-wrap: wrap; }
     .galeria .imagenes .imagen1 {
@@ -201,13 +202,14 @@ header {
   position: relative;
   top: 397px;
   height: 50px;
-  left: 100px; }
+  left: 100px;
+  width: 500px; }
   .iconos h2 {
     top: 0px;
     left: 100px;
     font-size: 48px;
     position: relative;
-    width: 700px;
+    width: 660px;
     word-spacing: 10px; }
   .iconos .icono1 {
     top: 50px;
@@ -248,7 +250,8 @@ header {
   .iconos .icono4 {
     top: -360px;
     left: 730px;
-    position: relative; }
+    position: relative;
+    width: 200px; }
     .iconos .icono4 img {
       width: 104px;
       height: 104px; }
@@ -266,6 +269,7 @@ header {
     position: relative;
     left: 254px;
     top: 192px;
+    width: 660px;
     height: 62px;
     color: white;
     font-size: 48px;
@@ -335,12 +339,13 @@ footer {
 
   .boxs {
     position: relative;
-    width: 100vw; }
+    width: 60vw; }
     .boxs .box1 {
       top: 60px;
       left: 16px;
       position: relative;
-      width: 300px;
+      width: 50vw;
+      height: 20vw;
       justify-content: flex-start;
       display: flex;
       flex-flow: wrap; }
@@ -368,13 +373,13 @@ footer {
         width: 5px;
         height: 5px;
         border-radius: 10px;
-        left: 10px;
-        top: 20px;
+        left: 7px;
+        top: 30px;
         color: #0000EC;
         position: relative; }
     .boxs .box2 {
-      width: 212px;
-      height: 48px;
+      width: 25vw;
+      height: 10vh;
       position: relative;
       left: 16px;
       top: 20px; }
@@ -391,9 +396,9 @@ footer {
         display: none; }
     .boxs .boton {
       background-color: #00F3BB;
-      width: 288px;
+      width: 60vw;
       height: 48px;
-      top: 105px;
+      top: 65px;
       left: 16px;
       position: relative; }
     .boxs .boton:hover {
@@ -405,10 +410,13 @@ footer {
     position: relative;
     width: 100vw; }
     .episodios h2 {
+      top: 20px;
+      left: 20px;
       font-size: 2em;
       color: #FFFFFF;
       line-height: 3;
-      font-family: 'Open Sans', sans-serif; }
+      font-family: 'IBM Plex Sans', sans-serif;
+      position: relative; }
     .episodios .episodios1 .iframe1 {
       width: 90%;
       border: 0px;
@@ -456,9 +464,9 @@ footer {
         left: 10px;
         height: 54px;
         font-size: 36px;
-        top: 10px;
+        top: 2px;
         position: relative;
-        width: 148px; }
+        width: 150px; }
       .telefono .telefono1 .parrafo2 {
         width: 248px;
         height: 284px;
@@ -477,30 +485,31 @@ footer {
       height: 84px;
       font-size: 36px; }
     .galeria .imagenes .imagen1 {
-      width: 100%;
-      height: 50%; }
+      width: 100vw;
+      height: 50vh; }
     .galeria .imagenes .imagen2 {
-      width: 100%;
-      height: 50%; }
+      width: 100vw;
+      height: 50vh; }
     .galeria .imagenes .imagen3 {
-      width: 100%;
-      height: 50%; }
+      width: 100vw;
+      height: 50vh; }
     .galeria .imagenes .imagen4 {
-      width: 100%;
-      height: 50%; }
+      width: 100vw;
+      height: 50vh; }
     .galeria .imagenes .imagen5 {
-      width: 100%;
-      height: 50%; }
+      width: 100vw;
+      height: 50vh; }
     .galeria .imagenes .imagen6 {
-      width: 100%;
-      height: 50%; }
+      width: 100vw;
+      height: 50vh; }
 
   .iconos {
     display: flex;
     flex-direction: column;
     top: 190px;
     position: relative;
-    width: 100vw;
+    width: 30vw;
+    height: 80vh;
     left: 0px;
     justify-items: center; }
     .iconos h2 {
@@ -510,8 +519,8 @@ footer {
       position: relative; }
     .iconos .icono1 {
       position: relative;
-      width: 50vw;
-      height: 50vh; }
+      width: 30vw;
+      height: 30vh; }
       .iconos .icono1 .p {
         font-size: 100px; }
     .iconos .icono2 {
@@ -546,42 +555,43 @@ footer {
 
   .ultimo {
     height: 341px;
-    top: 57em;
+    top: 30em;
     position: relative;
     padding: 3px;
-    width: 100%; }
+    width: 100vw;
+    height: 70vh;
+    justify-content: center; }
     .ultimo h4 {
-      left: 30vw;
-      width: 50vw;
-      height: 126px;
-      font-size: 36px;
+      left: 20vw;
+      width: 30vw;
+      font-size: 1.5em;
       text-align: center;
-      top: 96px;
-      position: relative; }
+      top: 4em;
+      position: relative;
+      font-family: 'IBM Plex Sans', sans-serif; }
     .ultimo .boton2 {
       position: relative;
       left: 7vw;
-      top: 104px;
-      width: 80vw;
-      height: 48px;
+      top: 174px;
+      width: 65vw;
+      height: 5vh;
       background-color: #00F3BB; }
 
   footer {
-    color: black;
-    left: 5em;
-    top: 70em;
-    height: 22px;
+    left: 2em;
+    top: 35em;
+    height: 2em;
     font-size: 14px;
     position: relative;
     word-spacing: 9px;
-    width: 70vw;
+    width: 50vw;
     text-align: center; }
     footer .sociales {
       padding: 20px;
       position: relative;
-      left: 10px;
+      left: .5em;
       word-spacing: 27px;
       font-size: 14px;
-      width: 60vw; } }
+      width: 50vw; } }
 
 /*# sourceMappingURL=style.css.map */
